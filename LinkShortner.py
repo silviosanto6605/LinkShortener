@@ -33,15 +33,13 @@ class Shortner:
             exit(1)
 
 
-
 if __name__ == '__main__':
     try:
-        print(Shortner.shorten(sys.argv[1],sys.argv[2]))
-    
+        print(Shortner.shorten(sys.argv[1], sys.argv[2]))
+
     except IndexError:
         try:
             print(Shortner.shorten((sys.argv[1])))
         except IndexError:
             print("Not enough arguments specified... exiting")
             exit(1)
-            
