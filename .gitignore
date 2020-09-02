@@ -1,11 +1,12 @@
 venv/
 
-LinkShortner.egg-info/
 
 build/
 
-dist/
+dist/*
 
 __pycache__/
 
 .idea/
+
+LinkShortener.egg-info/
