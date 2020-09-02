@@ -14,8 +14,8 @@ def shorten(url):
     source = requests.get(baseurl + url).text
     soup = BeautifulSoup(source, features="html.parser")
     try:
-        shortned_link = soup.find("a", {"id": "copy_div"})
-        return shortned_link["href"]
+        shortened_link = soup.find("a", {"id": "copy_div"})
+        return shortened_link["href"]
 
     except TypeError:
         print("URL invalid or alias not available")
@@ -27,8 +27,8 @@ def shorten(url, alias):
     source = requests.get(baseurl + url + "&alias=" + alias).text
     soup = BeautifulSoup(source, features="html.parser")
     try:
-        shortned_link = soup.find("a", {"id": "copy_div"})
-        return shortned_link["href"]
+        shortened_link = soup.find("a", {"id": "copy_div"})
+        return shortened_link["href"]
 
     except TypeError:
         print("URL invalid / Alias not available")
