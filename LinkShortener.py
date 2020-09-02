@@ -5,7 +5,7 @@ import sys
 
 baseurl = "https://tinyurl.com/create.php?source=indexpage&url="
 
-"""LinkShortner will automatically shorten links thanks to tinyurl.com. 
+"""LinkShortener will automatically shorten links thanks to tinyurl.com. 
     You can also make links with custom aliases."""
 
 

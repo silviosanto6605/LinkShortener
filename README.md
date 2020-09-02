@@ -1,5 +1,5 @@
-<h1>LinkShortner</h1>
-LinkShortner will automatically shorten links thanks to tinyurl.com. 
+<h1>LinkShortener</h1>
+LinkShortener will automatically shorten links thanks to tinyurl.com. 
 You can also make links with custom aliases.
 
 <h2>How to use</h2>

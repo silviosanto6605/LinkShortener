@@ -1,1 +1,1 @@
-﻿from LinkShortner import shorten
+﻿from LinkShortener import shorten
