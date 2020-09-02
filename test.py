@@ -1,5 +1,4 @@
 import LinkShortner
-import sys
 
 
-print(LinkShortner.Shortner.shorten("discord.com","wumpusmylove"))
+print(LinkShortner.shorten("discord.com","wumpusmylove"))
